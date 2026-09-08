@@ -16,7 +16,7 @@ COACHTECH 教材 Tutorial 7-4「フォームとデータ受け渡し ハンズ�
 
 ## 動作確認
 - Docker環境が起動していることを確認（docker compose up -d）
-- ブラウザでhttp://localhost:8000/7-4-3_hands-on/practice/input.phpを開く
+ブラウザで [http://localhost:8000/7-4-3_hands-on/practice/input.php](http://localhost:8000/7-4-3_hands-on/practice/input.php) を開く
 - 入力→確認→完了の流れを確認
 - 入力画面で名前・メールアドレス・年齢を入力
 - 確認画面で入力内容が正しく表示される
