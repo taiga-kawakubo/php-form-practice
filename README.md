@@ -7,6 +7,7 @@ COACHTECH 教材 Tutorial 7-4「フォームとデータ受け渡し ハンズ�
 ## 使用技術
 - PHP 8.2
 - HTML5（フォーム要素）
+- 
 
 ## 学んだこと
 - フォームで入力された情報を次の画面に引き継ぐための方法。具体的には、actionでデータの引き継ぎ先のファイルを指定すること、methodを使用してgetなのかpostなのかを指定すること。
@@ -16,7 +17,7 @@ COACHTECH 教材 Tutorial 7-4「フォームとデータ受け渡し ハンズ�
 
 ## 動作確認
 - Docker環境が起動していることを確認（docker compose up -d）
-ブラウザで [http://localhost:8000/7-4-3_hands-on/practice/input.php](http://localhost:8000/7-4-3_hands-on/practice/input.php) を開く
+- ブラウザで [http://localhost:8000/7-4-3_hands-on/practice/input.php](http://localhost:8000/7-4-3_hands-on/practice/input.php) を開く
 - 入力→確認→完了の流れを確認
 - 入力画面で名前・メールアドレス・年齢を入力
 - 確認画面で入力内容が正しく表示される
@@ -25,7 +26,6 @@ COACHTECH 教材 Tutorial 7-4「フォームとデータ受け渡し ハンズ�
 ## 詰まったポイントと解決方法
 - HTMLの内容で忘れている箇所があった。tebleの作成方法など
 - htmlspecialchars()の使い方について、変数を使用する際に記載する必要があるということが理解不足だった。解決方法は教材の確認。
-
 
 ## 開発の工夫
 - htmlspecialchars()を用いてセキュリティを高めたこと。
